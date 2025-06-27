@@ -76,10 +76,45 @@ btn.addEventListener('click', () => {
     if (window.matchMedia('(min-width: 1025px)').matches) {
         // Kompüterdə yuxarıdakı "Products" menyu linkinə klikləməyi simulyasiya edirik
         document.getElementById('nav-link-products')?.click();
-    } else {
-        // Mobildə standart scroll funksiyasını çağırırıq
-        document.getElementById('products-section').scrollIntoView({ behavior: 'smooth' });
+    } // YENİ VƏ TAM İŞLƏK ELSE BLOKU
+else {
+    // ===== TELEFON VƏ PLANŞET ÜÇÜN 2D TƏCRÜBƏ =====
+    document.getElementById('content-sections').style.display = 'block';
+    document.body.style.overflow = 'auto';
+
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    // Mobil menyu üçün naviqasiya linklərini yarat (əgər boşdursa)
+    if (navLinks.children.length === 0) {
+        const sectionsMobile = document.querySelectorAll('.html-section');
+        sectionsMobile.forEach(section => {
+            if(section.id) {
+                let linkText = section.element.id.replace('-section', '');
+                if (!linkText) linkText = 'Home'; // Boş ID üçün
+                linkText = linkText.charAt(0).toUpperCase() + linkText.slice(1);
+                const link = document.createElement('a');
+                link.href = `#${section.id}`;
+                link.textContent = linkText;
+                navLinks.appendChild(link);
+            }
+        });
     }
+
+    // Hamburger menyusunun kliklənmə hadisəsi
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        hamburger.classList.toggle('active');
+    });
+
+    // Menyu linkinə kliklədikdə menyunu bağlamaq üçün
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+            hamburger.classList.remove('active');
+        });
+    });
+}
 });
         paginationContainer.appendChild(btn);
     }
