@@ -65,11 +65,22 @@ function setupPagination() {
             btn.classList.add('active');
         }
         btn.innerText = i;
-        btn.addEventListener('click', () => {
-            currentPage = i;
-            displayProducts();
-            setupPagination(); // Aktiv düyməni yeniləmək üçün
-        });
+        // YENİ KOD
+// YENİ VƏ ETİBARLI KOD
+btn.addEventListener('click', () => {
+    currentPage = i;
+    displayProducts();
+    setupPagination();
+
+    // YUXARIYA SCROLL ETmənin YENİ ÜSULU
+    if (window.matchMedia('(min-width: 1025px)').matches) {
+        // Kompüterdə yuxarıdakı "Products" menyu linkinə klikləməyi simulyasiya edirik
+        document.getElementById('nav-link-products')?.click();
+    } else {
+        // Mobildə standart scroll funksiyasını çağırırıq
+        document.getElementById('products-section').scrollIntoView({ behavior: 'smooth' });
+    }
+});
         paginationContainer.appendChild(btn);
     }
 }
@@ -231,23 +242,29 @@ if (window.matchMedia('(min-width: 1025px)').matches) {
         scene.add(contentGroup);
     }
 
-    function createNavigation() {
-        const navLinksContainer = document.querySelector('.nav-links');
-        sections.forEach((section, i) => {
-            if (section.element.id) {
-                let linkText = section.element.id.replace('-section', '');
-                linkText = linkText.charAt(0).toUpperCase() + linkText.slice(1);
-                const link = document.createElement('a');
-                link.href = `#${section.element.id}`;
-                link.textContent = linkText;
-                link.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    targetScrollY = i * sectionDistance;
-                });
-                navLinksContainer.appendChild(link);
+   function createNavigation() {
+    const navLinksContainer = document.querySelector('.nav-links');
+    sections.forEach((section, i) => {
+        if (section.element.id) {
+            let linkText = section.element.id.replace('-section', '');
+            linkText = linkText.charAt(0).toUpperCase() + linkText.slice(1);
+            const link = document.createElement('a');
+            link.href = `#${section.element.id}`;
+            link.textContent = linkText;
+
+            // YENİ ƏLAVƏ OLUNAN HİSSƏ
+            if (section.element.id === 'products-section') {
+                link.id = 'nav-link-products'; // Products linkinə xüsusi ID veririk
             }
-        });
-    }
+
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                targetScrollY = i * sectionDistance;
+            });
+            navLinksContainer.appendChild(link);
+        }
+    });
+}
 
     function onWindowResize() {
         camera.aspect = window.innerWidth / window.innerHeight;
