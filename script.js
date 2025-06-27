@@ -368,3 +368,44 @@ if (window.matchMedia('(min-width: 1025px)').matches) {
         });
     });
 }
+// ===== MOBİL MENYU ÜÇÜN DƏQİQLƏŞDİRİLMİŞ HƏLL =====
+// Bu kod yalnız ekran 1024px-dən kiçik olduqda işə düşəcək.
+if (window.matchMedia('(max-width: 1024px)').matches) {
+
+    const hamburger_menu = document.querySelector('.hamburger');
+    const nav_links_menu = document.querySelector('.nav-links');
+
+    // Əmin olmaq üçün yoxlayırıq ki, elementlər mövcuddur
+    if (hamburger_menu && nav_links_menu) {
+
+        // Hamburger menyusunun kliklənmə hadisəsi
+        hamburger_menu.addEventListener('click', () => {
+            nav_links_menu.classList.toggle('active');
+            hamburger_menu.classList.toggle('active');
+        });
+
+        // Menyu linkinə kliklədikdə menyunu bağlamaq üçün
+        // Əvvəlcə menyudakı linkləri yaradırıq (əgər yoxdursa)
+        if (nav_links_menu.children.length === 0) {
+            const sectionsMobile = document.querySelectorAll('.html-section');
+            sectionsMobile.forEach(section => {
+                if(section.id) {
+                    let linkText = section.id.replace('-section', '');
+                    linkText = linkText.charAt(0).toUpperCase() + linkText.slice(1);
+                    const link = document.createElement('a');
+                    link.href = `#${section.id}`;
+                    link.textContent = linkText;
+                    nav_links_menu.appendChild(link);
+                }
+            });
+        }
+
+        // Sonra həmin linklərə kliklədikdə menyunu bağlama hadisəsini əlavə edirik
+        nav_links_menu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav_links_menu.classList.remove('active');
+                hamburger_menu.classList.remove('active');
+            });
+        });
+    }
+}
