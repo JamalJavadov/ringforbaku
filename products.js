@@ -660,6 +660,312 @@ const products = [
     price: "14.99 AZN",
     material: "Paslanmaz Polad",
     tags: ["sep", "masson", "skeleton"]
+  },
+  {
+    images: ["images/image (345).webp", "images/image (346).webp", "images/image (347).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "maska", "qədim"]
+  },
+  {
+    images: ["images/image (348).webp", "images/image (349).webp", "images/image (350).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "masson", "qədim"]
+  },
+  {
+    images: ["images/image (351).webp", "images/image (352).webp", "images/image (353).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "masson", "skeleton"]
+  },
+  {
+    images: ["images/image (354).webp", "images/image (355).webp", "images/image (356).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "skeleton", "heyvan"]
+  },
+  {
+    images: ["images/image (357).webp", "images/image (358).webp", "images/image (359).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "skeleton", "xaç"]
+  },
+  {
+    images: ["images/image (360).webp", "images/image (361).webp", "images/image (362).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "naxışlı", "skeleton"]
+  },
+  {
+    images: ["images/image (363).webp", "images/image (364).webp", "images/image (365).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "qədim", "viking"]
+  },
+  {
+    images: ["images/image (366).webp", "images/image (367).webp", "images/image (368).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "skeleton", "naxışlı"]
+  },
+  {
+    images: ["images/image (369).webp", "images/image (370).webp", "images/image (371).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "viking", "masson"]
+  },
+  {
+    images: ["images/image (372).webp", "images/image (373).webp", "images/image (374).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "qədim", "masson"]
+  },
+  {
+    images: ["images/image (375).webp", "images/image (376).webp", "images/image (377).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "skeleton", "masson"]
+  },
+  {
+    images: ["images/image (378).webp", "images/image (379).webp", "images/image (380).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "skeleton", "qədim"]
+  },
+  {
+    images: ["images/image (381).webp", "images/image (382).webp", "images/image (383).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "masson", "qədim"]
+  },
+  {
+    images: ["images/image (384).webp", "images/image (385).webp", "images/image (386).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "masson", "viking"]
+  },
+  {
+    images: ["images/image (387).webp", "images/image (388).webp", "images/image (389).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "maska", "skeleton"]
+  },
+  {
+    images: ["images/image (390).webp", "images/image (391).webp", "images/image (392).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "skeleton", "heyvan"]
+  },
+  {
+    images: ["images/image (393).webp", "images/image (394).webp", "images/image (395).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "viking", "qədim"]
+  },
+  {
+    images: ["images/image (396).webp", "images/image (397).webp", "images/image (398).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "masson", "skeleton"]
+  },
+  {
+    images: ["images/image (399).webp", "images/image (400).webp", "images/image (401).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "naxışlı", "skeleton"]
+  },
+  {
+    images: ["images/image (402).webp", "images/image (403).webp", "images/image (404).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "viking", "heyvan"]
+  },
+  {
+    images: ["images/image (405).webp", "images/image (406).webp", "images/image (407).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "skeleton", "13"]
+  },
+  {
+    images: ["images/image (410).webp", "images/image (411).webp", "images/image (412).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "skeleton", "heyvan"]
+  },
+  {
+    images: ["images/image (413).webp", "images/image (414).webp", "images/image (415).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "qədim", "masson"]
+  },
+  {
+    images: ["images/image (416).webp", "images/image (417).webp", "images/image (418).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "masson", "naxışlı"]
+  },
+  {
+    images: ["images/image (419).webp", "images/image (420).webp", "images/image (421).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "viking", "heyvan"]
+  },
+  {
+    images: ["images/image (428).webp", "images/image (429).webp", "images/image (430).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "skeleton", "qədim"]
+  },
+  {
+    images: ["images/image (431).webp", "images/image (432).webp", "images/image (433).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "xaç", "viking"]
+  },
+  {
+    images: ["images/image (434).webp", "images/image (435).webp", "images/image (436).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "maska", "qədim"]
+  },
+  {
+    images: ["images/image (439).webp", "images/image (440).webp", "images/image (441).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "masson", "skeleton"]
+  },
+  {
+    images: ["images/image (442).webp", "images/image (443).webp", "images/image (444).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "skeleton", "qədim"]
+  },
+  {
+    images: ["images/image (445).webp", "images/image (446).webp", "images/image (447).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "skeleton", "naxışlı"]
+  },
+  {
+    images: ["images/image (448).webp", "images/image (449).webp", "images/image (450).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "maska", "skeleton"]
+  },
+  {
+    images: ["images/image (451).webp", "images/image (452).webp", "images/image (453).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "xaç", "skeleton"]
+  },
+  {
+    images: ["images/image (454).webp", "images/image (455).webp", "images/image (456).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "viking", "qədim"]
+  },
+  {
+    images: ["images/image (457).webp", "images/image (458).webp", "images/image (459).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "skeleton", "qədim"]
+  },
+  {
+    images: ["images/image (460).webp", "images/image (461).webp", "images/image (462).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "skeleton", "viking"]
+  },
+  {
+    images: ["images/image (466).webp", "images/image (467).webp", "images/image (468).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "masson", "skeleton"]
+  },
+  {
+    images: ["images/image (469).webp", "images/image (470).webp", "images/image (471).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "masson", "naxışlı"]
+  },
+  {
+    images: ["images/image (472).webp", "images/image (473).webp", "images/image (474).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "masson", "xaç"]
+  },
+  {
+    images: ["images/image (475).webp", "images/image (476).webp", "images/image (477).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "heyvan", "qədim"]
+  },
+  {
+    images: ["images/image (478).webp", "images/image (479).webp", "images/image (480).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "masson", "qədim"]
+  },
+  {
+    images: ["images/image (481).webp", "images/image (482).webp", "images/image (483).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "xaç", "masson"]
+  },
+  {
+    images: ["images/image (484).webp", "images/image (485).webp", "images/image (486).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "masson", "viking"]
+  },
+  {
+    images: ["images/image (487).webp", "images/image (488).webp", "images/image (489).webp"],
+    price: "12.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["üzük", "masson", "skeleton"]
+  },
+  {
+    images: ["images/image (490).webp", "images/image (491).webp", "images/image (492).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "xaç", "masson"]
+  },
+  {
+    images: ["images/image (493).webp", "images/image (494).webp", "images/image (495).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "masson", "viking"]
+  },
+  {
+    images: ["images/image (499).webp", "images/image (500).webp", "images/image (501).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "skeleton", "qədim"]
+  },
+  {
+    images: ["images/image (502).webp", "images/image (503).webp", "images/image (504).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "masson", "xaç"]
+  },
+  {
+    images: ["images/image (505).webp", "images/image (506).webp", "images/image (507).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "xaç", "skeleton"]
+  },
+  {
+    images: ["images/image (511).webp", "images/image (512).webp", "images/image (513).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "skeleton", "xaç"]
+  },
+  {
+    images: ["images/image (514).webp", "images/image (515).webp", "images/image (516).webp"],
+    price: "14.99 AZN",
+    material: "Paslanmaz Polad",
+    tags: ["sep", "skeleton", "qədim"]
   }
 ];
 
