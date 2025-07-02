@@ -639,9 +639,9 @@ const products = [
   },
   {
     images: ["images/image (332).webp", "images/image (333).webp", "images/image (334).webp"],
-    price: "14.99 AZN",
+    price: "12.99 AZN",
     material: "Paslanmaz Polad",
-    tags: ["sep", "heyvan", "maska"]
+    tags: ["üzük", "heyvan", "maska"]
   },
   {
     images: ["images/image (335).webp", "images/image (336).webp", "images/image (337).webp"],
